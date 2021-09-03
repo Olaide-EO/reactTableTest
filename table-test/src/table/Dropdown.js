@@ -3,6 +3,11 @@ import { Popover } from "react-tiny-popover";
 import styled, { keyframes } from "styled-components";
 import {MenuSvg} from "./Icons";
 
+/**
+ * 
+ * @param {row} 
+ * used to access row data from the dropdown 
+ */
 const ProductEditMenu = ({ row }) => {
   const [menu, setMenu] = useState(false);
 
@@ -24,7 +29,6 @@ const ProductEditMenu = ({ row }) => {
     >
       <div
         className="btn waves-effect"
-        tag="button"
         onClick={() => setMenu(!menu)}
       >
         <MenuSvg />

@@ -15,7 +15,7 @@ export const TableContainer = styled.div`
   border: 0.5px solid #e8e8e8;
 
   thead {
-    background: #f1f2f4;
+    background: #2528AA;
     height: 46px;
     th {
       height: 46px;
@@ -23,7 +23,7 @@ export const TableContainer = styled.div`
       font-size: 14px;
       line-height: 17px;
       letter-spacing: 0.02em;
-      color: #353542;
+      color: #ffffff;
       vertical-align: middle !important;
       white-space: nowrap;
 
